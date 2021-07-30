@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url("https://images4.alphacoders.com/378/37864.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+}
+
+.inside-div{
+    width: 300px;
+    height: 150px;
+
+}
+.main-div{
+    display: grid;
+    place-items: center;
+    padding-top: 10rem;
+}
+
+h2{
+   margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+input{
+    width: 300px;
+    background:transparent;
+    border:0;
+    outline: 0;
+    border-bottom: 2px solid white;
+    color:white;
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    outline: 0;
+    cursor: pointer;
+    transition: .5s linear;
+}
+button:hover{
+    background:transparent;
+    border-color: white;
+    color:white;
+}
+
+#ahref{
+    text-decoration: none;
+    color: white;
+    word-spacing: 2px;
+    font-size: 20px;
+    margin-top: 5px;
+    transition: .5s linear;
+}
+#ahref:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}

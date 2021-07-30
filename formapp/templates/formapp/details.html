@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if params %}
+<div>
+    <div>
+        {% for i in params %}
+        <h3>Student Name : {{i.students_name}}</h3>
+        <h3>Student Age :{{i.students_age}}</h3>
+        <h3>Student Email : {{i.students_email}}</h3>
+        {% endfor %}
+    </div>
+</div>
+
+{% else %}
+<h1>Please Give Input Correctly</h1>
+{% endif %}
+
+</body>
+</html>
